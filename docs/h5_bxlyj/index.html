@@ -1,0 +1,376 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <title>八仙乐游记</title>
+
+  <!-- 不要删除或改变下面这行代码 -->
+  
+<!-- begin REM Zoom 计算 -->
+<script type="text/javascript">
+  (function (win) {
+    var remCalc = {};
+    var docEl = win.document.documentElement,
+      tid,
+      hasRem = true,
+      hasZoom = true,
+      zoomRuler = 'width',
+      designWidth = 750,
+      designHeight = 1206;
+
+    function refresh() {
+      var width = docEl.clientWidth;
+      var height = docEl.clientHeight;
+      if (width > 768) width = 768;
+      if (hasRem) {
+        var rem = width / 10;
+        docEl.style.fontSize = rem + "px";
+        remCalc.rem = rem;
+        var actualSize = parseFloat(window.getComputedStyle(document.documentElement)["font-size"]);
+        if (actualSize !== rem && actualSize > 0 && Math.abs(actualSize - rem) > 1) {
+          var remScaled = rem * rem / actualSize;
+          docEl.style.fontSize = remScaled + "px";
+        }
+      }
+      if (hasZoom) {
+        var style = document.getElementById('J__style');
+        if (!style) {
+          style = document.createElement('style');
+          style.id = 'J__style';
+        }
+        var r,s;
+        if (zoomRuler === 'height') {
+          r = height / designHeight;
+        } else {
+          r = width / designWidth;
+        }
+        r.toFixed && (r = r.toFixed(5));
+        s = '.__z{zoom:' + r + '} ';
+        s += '.__s{-webkit-transform: scale(' + r + ');transform: scale(' + r + ')}';
+
+        style.innerHTML = s;
+        document.getElementsByTagName('head')[0].appendChild(style);
+      }
+    }
+
+    function dbcRefresh() {
+      clearTimeout(tid);
+      tid = setTimeout(refresh, 100)
+    }
+    win.addEventListener("resize", function () {
+      dbcRefresh()
+    }, false);
+
+    win.addEventListener("pageshow", function (e) {
+      if (e.persisted) {
+        dbcRefresh();
+      }
+    }, false);
+    refresh();
+    if (hasRem) {
+      remCalc.refresh = refresh;
+      remCalc.rem2px = function (d) {
+        var val = parseFloat(d) * this.rem;
+        if (typeof d === "string" && d.match(/rem$/)) {
+          val += "px";
+        }
+        return val;
+      };
+      remCalc.px2rem = function (d) {
+        var val = parseFloat(d) / this.rem;
+        if (typeof d === "string" && d.match(/px$/)) {
+          val += "rem";
+        }
+        return val;
+      };
+      win.remCalc = remCalc;
+    }
+  })(window);
+
+</script>
+<!-- end REM Zoom 计算 -->
+
+<link href="./css/app.css" rel="stylesheet"></head>
+<body class="video">
+  <!-- S 主体内容 -->
+  <div id="o2_main" class="main">
+    <div class="slide">
+      <div class="stage" data-active="smlk">
+        <div class="lantern"></div>
+        <div class="title">
+          <div class="title__wrapper">
+            <div class="title__light"></div>
+          </div>
+        </div>
+        <div class="slogan">
+          <div class="slogan--smlk">
+            <p>京东狗年贺岁大片</p>
+            <p class="small">视频时长3分30秒，视频大小23.6M</p>
+            <p class="small">注意视频播放有声音哦</p>
+          </div>
+          <div class="slogan--hxr">
+            <p>滤镜、美颜、自拍神器</p>
+            <p>却百密一疏在闺蜜的合照里</p>
+          </div>
+          <div class="slogan--hyq">
+            <p>猪想大户人想红  春风拂槛露华浓</p>
+            <p>桃花潭水深千尺  不及红包送我情</p>
+          </div>
+          <div class="slogan--lxy">
+            <p>一年的浮浮沉沉沉沉沉沉即将过去</p>
+            <p>未来的大起大落落落落落落还会远吗？</p>
+            <p>与其忧患未来  不如把握当下的精彩</p>
+          </div>
+          <div class="slogan--qka">
+            <p>身体和灵魂总有一个在路上</p>
+            <p>没错  我就是代表  身体到中年了</p>
+            <p>可灵魂还是个宝宝</p>
+            <p class="small">—致爱撒娇卖萌的90后叔叔阿姨们</p>
+          </div>
+          <div class="slogan--bsq">
+            <p>最想说的话在眼睛里</p>
+            <p>最简单的快乐在三餐四季的平淡中</p>
+          </div>
+          <div class="slogan--dxc">
+            <p>每一次减肥都是在阻</p>
+            <p>碍我们变得更好</p>
+            <p>毕竟识食物者为俊杰</p>
+          </div>
+          <div class="slogan--yxl">
+            <p>没有花和金子</p>
+            <p>只会花金子</p>
+            <p>是泡不到妹子的</p>
+          </div>
+          <div class="slogan--blw">
+            <p>上联：忆往昔  通宵  啤酒  小烧烤</p>
+            <p>下联：叹今朝  手串  热水  保温杯</p>
+            <p>横批：生活不止眼前的枸杞</p>
+          </div>
+        </div>
+        <div class="plaque">
+          <div class="plaque__name"></div>
+        </div>
+        <div class="swiper">
+          <div class="swiper__item smlk">
+            <div class="character"></div>
+            <div class="board"></div>
+          </div>
+          <div class="swiper__item hxr">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="hxr-canvas" width="526" height="536"></canvas>
+          </div>
+          <div class="swiper__item hyq">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="hyq-canvas" width="499" height="499"></canvas>
+          </div>
+          <div class="swiper__item lxy">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="lxy-canvas" width="549" height="545"></canvas>
+          </div>
+          <div class="swiper__item qka">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="qka-canvas" width="539" height="442"></canvas>
+          </div>
+          <div class="swiper__item bsq">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="bsq-canvas" width="525" height="472"></canvas>
+          </div>
+          <div class="swiper__item dxc">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="dxc-canvas" width="554" height="465"></canvas>
+          </div>
+          <div class="swiper__item yxl">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="yxl-canvas" width="548" height="491"></canvas>
+          </div>
+          <div class="swiper__item blw">
+            <div class="character"></div>
+            <div class="board"></div>
+            <canvas id="blw-canvas" width="499" height="435"></canvas>
+          </div>
+        </div>
+        <div class="share-btn">
+          <div class="share-btn__bg"></div>
+          <p class="share-btn__text">试试左右滑动JOY吧</p>
+          <div class="share-btn__light"></div>
+          <div class="share-btn__stars">
+              <div class="share-btn__top"></div>
+              <div class="share-btn__right"></div>
+              <div class="share-btn__bottom"></div>
+              <div class="share-btn__left"></div>
+          </div>
+        </div>
+        <div class="move-tips"></div>
+        <div class="next-page">
+          <div class="next-page__icon"></div>
+          <p class="next-page__text">下方查看惊喜好物</p>
+        </div>
+        <div class="video-wrap">
+          <video></video>
+          <div class="video__close">关闭</div>
+        </div>
+        <div class="animation-switch">
+          <button class="animation-switch__btn animation-switch__btn--on" type="button"></button>
+        </div>
+        <div class="reminder-toast">
+          <p class="reminder-toast__text"></p>
+        </div>
+      </div>
+      <div class="sale-page">
+        <div class="tab" id="tab">
+          <div class="tab__nav">
+            <div class="tab__nav-item"
+              v-for="(item, index) in tabNav"
+              :class="tabNavItemClass(item, index)"
+              @click="changeActiveIndex($event, index)">
+              <div class="tab__nav-avatar">
+              </div>
+              <p class="tab__nav-name">{{ item.cname }}</p>
+            </div>
+          </div>
+          <div class="tab__body">
+            <div class="tab__pane"
+              v-if="goodsList && articleList"
+              v-for="(tabItem, tabIndex) in tabNav"
+              :class="tabNavPaneClass(tabItem, tabIndex)">
+              <div class="card-group"
+                v-for="(goodsItem, goodsIndex) in goodsList[tabItem.goodsGroupId] && goodsList[tabItem.goodsGroupId].list">
+                <div class="card" v-if="goodsItem">
+                  <a class="report-link"
+                    data-eventid="Babel_dev_adv_SkuClick"
+                    :data-skuid="goodsItem.skuId"
+                    :data-name="goodsItem.name"
+                    :data-groupid="tabItem.goodsGroupId"
+                    :data-href="'//item.m.jd.com/ware/view.action?wareId=' + goodsItem.skuId">
+                    <div class="goods">
+                      <div class="goods__poster">
+                        <img :src="fixUrl(goodsItem.image)" :alt="goodsItem.name">
+                      </div>
+                      <div class="goods__info">
+                        <div class="goods__header">
+                          <div class="goods__brand">
+                            <div class="goods__brand-icon"
+                              :style="{
+                                'background-image': 'url(' + (goodsItem.backUpPics[0] || '') + ')'
+                              }">
+                            </div>
+                            <h3 class="goods__brand-name">{{ goodsItem.tag }}</h3>
+                          </div>
+                          <p class="goods__desc">{{ goodsItem.name }}</p>
+                        </div>
+                        <div class="goods__sale">
+                          <div class="goods__price-group">
+                            <strong class="goods__current-price" v-html="formatPrice(goodsItem.pPrice)"></strong>
+                          </div>
+                          <button class="goods__buy">
+                            立即购买
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card" v-if="tabItem.articleGroupId
+                  && articleList[tabItem.articleGroupId]
+                  && articleList[tabItem.articleGroupId].list
+                  && articleList[tabItem.articleGroupId].list.length > 0
+                  && articleList[tabItem.articleGroupId].list[goodsIndex]">
+                  <a class="report-link"
+                  data-eventid="Babel_dev_adv_ArticleClick"
+                  :data-id="articleList[tabItem.articleGroupId].list[goodsIndex].link"
+                  :data-href="'//h5.m.jd.com/active/faxian/html/innerpage.html?id=' + articleList[tabItem.articleGroupId].list[goodsIndex].link">
+                    <div class="article">
+                      <div class="article__info">
+                        <div class="article__main">
+                          <h4 class="article__title" v-if="articleList[tabItem.articleGroupId].list[goodsIndex]">
+                            {{ articleList[tabItem.articleGroupId].list[goodsIndex].title }}
+                          </h4>
+                          <p class="article__desc" v-if="articleList[tabItem.articleGroupId].list[goodsIndex]">
+                            {{ articleList[tabItem.articleGroupId].list[goodsIndex].summary }}
+                          </p>
+                        </div>
+                        <p class="article__viewer" v-if="articleList[tabItem.articleGroupId].list[goodsIndex]">
+                          {{ articleList[tabItem.articleGroupId].list[goodsIndex].pageView }}人
+                        </p>
+                      </div>
+                      <div class="article__poster"
+                        :style="{
+                          'background-image': 'url(' + fixUrl(articleList[tabItem.articleGroupId].list[goodsIndex].indexImage) + ')'
+                        }">
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="card-group"
+                v-for="(commentItem, commentIndex) in tabItem.comments"
+                v-if="commentItem && commentItem.id">
+                <div class="inventory">
+                  <a class="report-link"
+                    data-eventid="Babel_dev_adv_AlbumClick"
+                    :data-id="commentItem.id"
+                    :data-href="'//h5.m.jd.com/active/youpin/qingdan/index.html?id=' + commentItem.id">
+                    <h3 class="inventory__title">{{ commentItem.mainTitle }}</h3>
+                    <p class="inventory__viewer">{{ commentItem.pageView }}人</p>
+                    <div class="inventory__list">
+                      <div class="inventory__item" v-for="(skuItem, skuIndex) in commentItem.skus">
+                        <div class="inventory__item-poster"
+                          :style="{
+                            'background-image': 'url(' + fixUrl(skuItem.img) + ')'
+                          }">
+                        </div>
+                        <p class="inventory__price" v-html="formatPrice(skuItem.price)"></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="goto-stage">
+      <div class="goto-stage__icon"></div>
+    </div>
+    <div class="footer">
+      <div class="footer__item footer__item--active">
+        <a class="report-link home-btn" data-tag="bottomNav2" data-nolink="true" data-href="//h5.m.jd.com/dev/36zjvdoFeQXkk4YDg4d5FXGDbKSs/index.html">八仙乐游记</a>
+      </div>
+      <div class="footer__item">
+        <a class="report-link" data-tag="bottomNav1" data-href="//pro.m.jd.com/mall/active/2CqcJyzHQ8kLYwEmgVKqN7WNdJFT/index.html">主会场</a>
+      </div>
+      <div class="footer__item">
+        <a class="report-link" data-tag="bottomNav3" data-href="//pro.m.jd.com/mall/active/2fshBxhCHK5ydTLLG4oqHu1aG85/index.html">闪购会场</a>
+      </div>
+    </div>
+
+    <!-- <div class="canvas">
+      <canvas id="stage" width="450" height="450"></canvas>
+    </div> -->
+
+    <!-- <div class="dev">
+      <p class="op"></p>
+      <div class="btn-group">
+        <p class="subscribe-text"></p>
+        <button type="button" class="subscribe-add-btn">提醒我</button>
+        <button type="button" class="subscribe-remove-btn">删除提醒</button>
+        <button type="button" class="subscribe-check-btn">检查提醒</button>
+        <button type="button" class="subscribe-close-btn">关闭预约弹框</button>
+        <button type="button" class="share-btn">点我分享</button>
+      </div>
+    </div> -->
+  </div>
+  <!-- E 主体内容 -->
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
